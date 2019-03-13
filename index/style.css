@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: white;
+}
+header {
+    border: solid;
+    margin-bottom: 50px;
+}
+#logo {
+    font-size: 48px;
+}
+.article-link {
+    color: yellow;
+}
+article {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    text-align: center;
+    font-size: 24px;
+}
+nav a {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+footer {
+    text-align: center;
+}
+@media screen and (max-width:800px) {
+    nav a {
+        margin-left:10px;
+        margin-right: 10px;
+        width: 100%;
+    }
+}
