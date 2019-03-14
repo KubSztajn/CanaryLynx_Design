@@ -1,33 +1,62 @@
 body {
-    background-color: black;
+    background-image: url(./img/background.png);
     color: white;
+    font-family: 'Sitka Text';
 }
 header {
-    border: solid;
-    margin-bottom: 50px;
+    border: outset 4px  rgb(204, 204, 0);
+    margin-bottom: 35px;
+    margin-left: 7%;
+    margin-right: 7%;
+    border-radius: 0px 0px 20px 20px;
+    margin-top: 0%;
+    background-image: url(./img/logo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
 }
 #logo {
     font-size: 48px;
+    font-weight: bold;
+    color: rgb(204, 204, 0);
+
 }
 .article-link {
-    color: yellow;
+    color: rgb(204, 204, 0);
 }
 article {
     margin-left: 10%;
     margin-right: 10%;
+    padding: 1%;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 20px 0px;
+    border: inset 2px  gray;
+    margin-top: 1%;
 }
 nav {
     text-align: center;
     font-size: 24px;
+    background-image: url(./img/hex.png);
+    margin-right: 7%;
+    margin-left: 7%;
+    border-radius: 20px;
+    border: outset 2px  gray;
 }
 nav a {
     margin-right: 100px;
     margin-left: 100px;
+    color: rgb(204, 204, 0);
 }
 footer {
+    margin-top: 1%;
+    padding: 1%;
     text-align: center;
+    background-image: url(./img/hex.png);
+    margin-right: 7%;
+    margin-left: 7%;
+    border-radius: 20px 20px 0px 0px;
+    border: outset 2px  gray;
 }
 @media screen and (max-width:800px) {
     nav a {
@@ -35,4 +64,8 @@ footer {
         margin-right: 10px;
         width: 100%;
     }
+}
+
+h1 {
+    color: rgb(204, 204, 0);
 }
